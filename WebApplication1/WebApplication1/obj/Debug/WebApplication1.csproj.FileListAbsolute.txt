@@ -1,0 +1,12 @@
+C:\Users\student.APTDNS.000\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\student.APTDNS.000\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\student.APTDNS.000\Desktop\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\student.APTDNS.000\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\student.APTDNS.000\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\student.APTDNS.000\Desktop\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+\\APTSERVER\Nagappan\Data\Aptech\Samples For Summer Class Students\DotNet\Memory Games\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+\\APTSERVER\Nagappan\Data\Aptech\Samples For Summer Class Students\DotNet\Memory Games\WebApplication1\WebApplication1\bin\WebApplication1.dll
+\\APTSERVER\Nagappan\Data\Aptech\Samples For Summer Class Students\DotNet\Memory Games\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+\\APTSERVER\Nagappan\Data\Aptech\Samples For Summer Class Students\DotNet\Memory Games\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+\\APTSERVER\Nagappan\Data\Aptech\Samples For Summer Class Students\DotNet\Memory Games\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+\\APTSERVER\Nagappan\Data\Aptech\Samples For Summer Class Students\DotNet\Memory Games\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

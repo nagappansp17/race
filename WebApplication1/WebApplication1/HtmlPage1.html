@@ -1,0 +1,439 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script>
+
+        onload = function () {
+            document.getElementById('box2').style.display = 'block';
+            var x = document.getElementsByClassName('img1');
+            for (var i = 0; i <= 17; i++) {
+                x[i].src = "Images/Icons/Pokeman.png";
+            }
+
+        }
+    </script>
+    <style>
+        body {
+            margin: 0px;
+            font-family: 'Iceberg', cursive;
+            color: blueviolet;
+            background-image: url('Images/W22.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .p {
+            text-align: center;
+            font-size: 35px;
+            text-shadow: 1px 1px 6px white;
+        }
+
+        .Icons {
+            width: 150px;
+            height: 175px;
+            margin-left: 35px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 1px 2px 8px 2px blueviolet;
+            display: inline-block;
+            text-align: center;
+            margin-top: 25px;
+            padding: 5px;
+            border: 3px ridge skyblue;
+            transition-duration: 3s;
+        }
+
+            .Icons:hover {
+                cursor: pointer;
+            }
+
+        img {
+            width: 150px;
+            height: 175px;
+        }
+
+        .btn {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+        }
+
+        #myProgress {
+            width: 100%;
+            background-color: transparent;
+        }
+
+        #myBar {
+            width: 0px;
+            height: 10px;
+            text-align: center;
+            background-image: linear-gradient(45deg,rgba(211,126,208,1),rgba(73,155,234,1));
+        }
+
+        #box {
+            background-image: linear-gradient(45deg,rgb(226, 157, 151),#ac09f7);
+            width: 500px;
+            height: 450px;
+            position: absolute;
+            border-radius: 25px;
+            display: none;
+            bottom: 140px;
+            left: 28%;
+            font-size: 25px;
+            text-align: center;
+            text-transform: capitalize;
+            font-family: 'Dancing Script', cursive;
+            animation-name: zoom;
+            animation-duration: 3s;
+        }
+
+        @keyframes zoom {
+            from {
+                transform: scale(0,0);
+            }
+
+            to {
+                transform: scale(1,1);
+            }
+        }
+
+        #box2 {
+            background-image: linear-gradient(45deg,rgb(226, 157, 151),#ac09f7);
+            width: 500px;
+            height: 450px;
+            position: absolute;
+            border-radius: 25px;
+            display: none;
+            bottom: 140px;
+            left: 28%;
+            font-size: 25px;
+            text-align: center;
+            text-transform: capitalize;
+            font-family: 'Dancing Script', cursive;
+            animation-name: zoom;
+            animation-duration: 3s;
+        }
+
+        #box3 {
+            background-image: linear-gradient(45deg,rgb(226, 157, 151),#ac09f7);
+            width: 500px;
+            height: 450px;
+            position: absolute;
+            border-radius: 25px;
+            display: none;
+            bottom: 140px;
+            left: 28%;
+            font-size: 25px;
+            text-align: center;
+            text-transform: capitalize;
+            font-family: 'Dancing Script', cursive;
+            animation-name: zoom;
+            animation-duration: 3s;
+        }
+
+        .btn1 {
+            border-radius: 15px;
+            color: white;
+            background-image: linear-gradient(35deg,rgb(144, 177, 250),rgb(226, 157, 151));
+            width: 250px;
+            height: 65px;
+            font-size: 25px;
+            outline: none;
+            font-family: 'Dancing Script', cursive;
+            cursor: pointer;
+            text-shadow: 1px 3px 2px #9619d0;
+        }
+
+        #main {
+            display: none;
+        }
+
+        .logo {
+            animation-name: bounce;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate-reverse;
+        }
+
+        @keyframes bounce {
+          from {
+                margin-top: 0px;
+                transform: scaleX(1);
+            }
+
+            to {
+                margin-top: 5px;
+                transform: scaleX(-1);
+            }
+        }
+    </style>
+    <title> Memory Games For The KIDS - 2019</title>
+
+
+</head>
+<body>
+    <audio style="display:block;" id="s1">
+        <source src="vlc-record-2019-04-06-16h26m58s-pikapika-42387.mp3-.mp3" />
+    </audio>
+    <div id="main">
+        <div id="myProgress">
+            <div id="myBar"></div>
+        </div>
+        <table style="margin:auto">
+            <tr>
+
+
+                <td>
+                    <h1 class="p"> Memory Games For The KIDS - 2019 </h1>
+                </td>
+                <td><img class="btn" src="Images/Icons/BtnLogo.png" onclick="Show();" /></td>
+            </tr>
+        </table>
+
+        <div class="Icons" onclick="Game(0) +document.getElementById('s1').play(); ">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(1) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(2) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(3) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(4) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(5) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(6) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(7) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(8) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(9) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(10) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(11) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(12) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(13) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(14) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(15) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(16) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+        <div class="Icons" onclick="Game(17) + document.getElementById('s1').play();">
+            <img class="img1" src="#" />
+        </div>
+    </div>
+    <!-- Game Over-->
+    <div id="box">
+        <h1 style="text-align:center;">Time Up!</h1>
+        <img class="logo" src="Images/Icons/BtnLogo.png" />
+        <br />
+        <button class="btn1" onclick="location.reload();">Try Again !</button>
+    </div>
+    <!-- Game Start-->
+    <div id="box2">
+        <h1 style="text-align:center;">Start Game</h1>
+        <img class="logo" src="Images/Icons/C1-removebg.png" />
+        <br />
+        <button class="btn1" onclick="start(); +hide();">Start The Game</button>
+
+    </div>
+    <!--Game Win-->
+    <div id="box3">
+        <h1 style="text-align:center;">You Won</h1>
+        <img class="logo" src="Images/200px-Ash_BW.png" />
+        <br />
+        <button class="btn1" onclick="location.reload();">Play Again</button>
+
+    </div>
+    <script>
+        //To hide start screen & Change Background Image
+        function hide() {
+            document.getElementById('box2').style.display = "none";
+            document.getElementById('main').style.display = "block";
+            document.body.style.backgroundImage = "url('Images/W2.jpg')";
+
+        }
+
+
+        //Gobal Varaiable Declaration
+        var x = document.getElementsByClassName('Icons');
+
+
+        var y = document.getElementsByClassName('img1');
+
+
+
+        var pic = ["Images/Icons/P1.png", "Images/Icons/P2.png", "Images/Icons/p3.png", "Images/Icons/p4.png", "Images/Icons/p5.png", "Images/Icons/p6.png", "Images/Icons/p7.png", "Images/Icons/p8.png", "Images/Icons/p9.png", "Images/Icons/P1.png", "Images/Icons/P2.png", "Images/Icons/p3.png", "Images/Icons/p4.png", "Images/Icons/p5.png", "Images/Icons/p6.png", "Images/Icons/p7.png", "Images/Icons/p8.png", "Images/Icons/p9.png"];
+
+
+        var temp = 0, s, h, r, card = 0, id, tt;
+
+        function Game(i) {
+
+            if (x[i].style.transform == 'rotateY(180deg)') {
+
+                x[i].style.transform = 'rotateY(0deg)';
+
+                y[i].src = "Images/Icons/Pokeman.png";
+
+
+            }
+
+            else {
+
+                x[i].style.transform = 'rotateY(180deg)';
+
+                y[i].src = pic[i];
+                val(i);
+
+            }
+
+
+        }
+        //Validate
+        function val(i) {
+
+            //To get the position of the div
+            temp++;
+            if (temp == 1) {
+
+                h = i;
+
+            }
+            else {
+
+                s = i;
+                //To clear the interval time
+                clearInterval(r);
+
+            }
+            //Validate The Result here
+            if (pic[h] == pic[s]) {
+
+                x[h].style.visibility = 'hidden';
+                x[s].style.visibility = 'hidden';
+
+
+                //Clear Temp Varaiable Value
+                temp = 0;
+                card++;
+                //To find the count of Icons
+                var cou = document.querySelectorAll('.Icons').length;
+                if (card == cou / 2) {
+                    setInterval(function win() {
+                        document.getElementById('box3').style.display = "block";
+                        document.body.style.backgroundImage = "url('Images/maxresdefault.jpg')";
+                        clearInterval(id);
+                        clearInterval(tt);
+                    }, 3000);
+                }
+
+
+            }
+            else {
+
+                r = setInterval(roll, 2500);
+                function roll() {
+                    x[s].style.transform = 'rotateY(0deg)';
+                    y[s].src = "Images/Icons/Pokeman.png";
+                }
+
+            }
+
+        }
+
+        count = 2;
+        //To Show the Hide Image For 5s;
+        function Show() {
+            if (count >= 0) {
+                for (var i = 0; i <= 17; i++) {
+                    x[i].style.transform = 'rotateY(180deg)' + 'scale(1.1,1.1)';
+                    y[i].src = pic[i];
+                }
+                var myVar = setInterval(view, 5000);
+                function view() {
+                    for (var i = 0; i <= 17; i++) {
+                        x[i].style.transform = 'rotateY(0deg)' + 'scale(1,1)';
+                        y[i].src = "Images/Icons/Pokeman.png";
+                    }
+
+                    //To clear the interval time
+                    clearInterval(myVar);
+                }
+                count -= 1;
+            }
+            else {
+                alert('Chance Over to View the Image');
+            }
+        }
+
+        //Timer
+
+        function startTimer(duration, display) {
+            var timer = duration, minutes, seconds;
+            tt = setInterval(st, 1000);
+            function st() {
+                minutes = parseInt(timer / 60, 10)
+                seconds = parseInt(timer % 60, 10);
+
+                minutes = minutes < 10 ? "0" + minutes : minutes;
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = minutes + ":" + seconds;
+
+                if (--timer < 0) {
+                    timer = duration;
+                }
+
+            }
+        }
+
+        function start() {
+            //Time Setting
+            var fiveMinutes = 60 * 2,
+
+                display = document.querySelector('#time');
+
+            startTimer(fiveMinutes, display);
+            var elem = document.getElementById("myBar");
+
+            var width = 1;
+            //change the set time here
+            id = setInterval(frame, 1200);
+            function frame() {
+                if (width >= 100) {
+                    clearInterval(id);
+                    clearInterval(tt);
+                    document.getElementById('box').style.display = 'block';
+                } else {
+                    width++;
+                    elem.style.width = width + '%';
+                }
+            }
+        };
+    </script>
+</body>
+</html>
